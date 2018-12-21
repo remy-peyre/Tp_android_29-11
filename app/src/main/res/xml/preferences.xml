@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory
+        android:title="@string/main">
+
+        <SwitchPreference
+            android:key="notifications_preference"
+            android:title="@string/notification"
+            android:summary="@string/notifications_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/help_me">
+
+        <Preference
+            android:key="legal"
+            android:title="@string/legal">
+
+        </Preference>
+
+        <Preference
+            android:key="website"
+            android:title="@string/website">
+        </Preference>
+
+        <PreferenceScreen
+            android:key="contact_us"
+            android:title="@string/contact_us">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="mailto:redaction@mgig.fr" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

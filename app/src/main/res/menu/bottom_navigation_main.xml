@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_news"
+        android:enabled="true"
+        android:icon="@drawable/new_icon"
+        android:title="@string/news"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_forum"
+        android:enabled="true"
+        android:icon="@drawable/forum_icon"
+        android:title="@string/forum"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_books"
+        android:enabled="true"
+        android:icon="@drawable/books_icon"
+        android:title="@string/books"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_club_igen"
+        android:enabled="true"
+        android:icon="@drawable/club_igen_icon"
+        android:title="@string/club_igen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+</menu>

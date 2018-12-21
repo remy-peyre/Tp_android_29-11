@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Igeneration</string>
+    <string name="news">News</string>
+    <string name="forum">forum</string>
+    <string name="books">Books</string>
+    <string name="club_igen">Club iGen</string>
+    <string name="settings">Settings</string>
+    <string name="news_fragment">fragment of news</string>
+    <string name="forum_fragment">fragment of forum</string>
+    <string name="books_fragment">fragment of books</string>
+    <string name="club_igen_fragment">fragment of club igen</string>
+    <string name="settings_fragment">fragment of settings</string>
+    <string name="main">main</string>
+    <string name="notification">Notifications</string>
+    <string name="notifications_preference">notifications preference</string>
+    <string name="help_me">Help</string>
+    <string name="contact_us">contact us</string>
+    <string name="legal">Legal notice</string>
+    <string name="website">Website</string>
+</resources>
